@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="1-Pj-He1f0U3Soml8h6T" name="Page-1">
+        <mxGraphModel dx="2047" dy="1198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;b&gt;Sistema de Gestión de Terminales de Transporte&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="118" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="VEH&lt;span style=&quot;font-weight: bold; color: rgb(191, 191, 191); font-family: Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(31, 31, 31);&quot;&gt;ÍCULO&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TERMINAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="CONDUCTOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="VIAJE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="MANTENIMIENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="cod_terminal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="780" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="nombre_terminal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="870" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ciudad_terminal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="860" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="dirección_terminal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="790" width="90" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
