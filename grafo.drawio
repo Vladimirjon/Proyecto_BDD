@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="9xawf11EgOydYplsZZsw" name="Page-1">
-        <mxGraphModel dx="659" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="350" math="0" shadow="0">
+        <mxGraphModel dx="640" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="350" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,8 +10,8 @@
                 <mxCell id="4" value="&lt;b&gt;VEHICULO (&lt;/b&gt;&lt;u&gt;cod_vehículo&lt;/u&gt;, cod_terminal, placa_vehículo, capacidad&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_vehículo, compañ&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;í&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_vehículo&lt;/span&gt;&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="40" y="160" width="550" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;b&gt;VIAJE(&lt;/b&gt;&lt;u&gt;cod_viaje&lt;/u&gt;, cod_conductor, cod_vehiculo, cod_terminal, fecha_viaje, hora_viaje, ciudad_destino&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="200" width="570" height="30" as="geometry"/>
+                <mxCell id="5" value="&lt;b&gt;VIAJE(&lt;/b&gt;&lt;u&gt;cod_viaje&lt;/u&gt;, cod_conductor, cod_vehiculo, cod_terminal, fecha_viaje, hora_viaje, ciudad_destino,precio_viaje&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="640" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="&lt;b&gt;CONDUCTOR(&lt;/b&gt;&lt;u&gt;cod_conductor&lt;/u&gt;, nombre_conductor, apellido&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_conductor&lt;/span&gt;, licencia_conductor&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="40" y="240" width="510" height="30" as="geometry"/>
@@ -34,7 +34,7 @@
                         <mxPoint x="220" y="220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=0.225;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="6">
+                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=0.225;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="245" y="260" as="sourcePoint"/>
                         <mxPoint x="180" y="220" as="targetPoint"/>
@@ -49,10 +49,10 @@
                 </mxCell>
                 <mxCell id="18" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="150" y="130" as="sourcePoint"/>
+                        <mxPoint x="160" y="130" as="sourcePoint"/>
                         <mxPoint x="330" y="210" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="150" y="110"/>
+                            <mxPoint x="160" y="110"/>
                             <mxPoint x="420" y="110"/>
                             <mxPoint x="600" y="110"/>
                             <mxPoint x="600" y="190"/>
@@ -106,7 +106,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                <mxCell id="27" style="edgeStyle=none;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="149" y="140" as="sourcePoint"/>
                         <mxPoint x="220" y="170" as="targetPoint"/>
