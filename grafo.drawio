@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="9xawf11EgOydYplsZZsw" name="Page-1">
-        <mxGraphModel dx="1440" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="350" math="0" shadow="0">
+        <mxGraphModel dx="773" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="350" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,8 +16,8 @@
                 <mxCell id="6" value="&lt;b&gt;CONDUCTOR(&lt;/b&gt;&lt;u&gt;cod_conductor&lt;/u&gt;, nombre_conductor, apellido&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_conductor&lt;/span&gt;, licencia_conductor&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="40" y="240" width="510" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;b&gt;PASAJEROS(&lt;/b&gt;&lt;u&gt;cod_pasajero&lt;/u&gt;, cod_viaje, nombre_pasajero, apellido&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_pasajero,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;teléfono_pasajero,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;cédula_pasajero, correo_pasajero&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-5" y="280" width="730" height="30" as="geometry"/>
+                <mxCell id="7" value="&lt;b&gt;PASAJEROS(&lt;/b&gt;&lt;u&gt;cod_pasajero&lt;/u&gt;, cod_viaje, nombre_pasajero, apellido&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;_pasajero,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;teléfono_pasajero,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;cédula_pasajero,&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="280" width="630" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="&lt;h2&gt;&lt;b&gt;Sistema de Gestión de Terminales&amp;nbsp;&lt;/b&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="130" y="40" width="320" height="60" as="geometry"/>
@@ -115,6 +115,9 @@
                             <mxPoint x="220" y="150"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="correo_pasajero)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="280" width="110" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
